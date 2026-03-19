@@ -1017,7 +1017,7 @@ export default function GlowJA() {
             {paying?<><span className="spin">⟳</span> Processing...</>:<>Pay J${fmt(finalPrice)} →</>}
           </button>
           <p style={{textAlign:"center",fontSize:10,color:C.muted,marginTop:8}}>🔒 PCI-DSS Level 1 · Powered by WiPay Jamaica</p>
-          <div style={{marginTop:12,background:C.surface,border:,borderRadius:9,padding:"10px 14px",fontSize:11,color:C.platDim,textAlign:"center"}}>
+          <div style={{marginTop:12,background:C.surface,border:`1px solid ${C.border}`,borderRadius:9,padding:"10px 14px",fontSize:11,color:C.platDim,textAlign:"center"}}>
             Full payment goes to GlowJA · Vendor receives their share within 7 days via WiPay
           </div>
         </div>
